@@ -1,0 +1,44 @@
+{
+  "name": "homebridge-beolink-gateway",
+  "version": "1.0.0",
+  "description": "Homebridge plugin for Bang and Olufsen Beolink Gateway",
+  "main": "dist/beolinkGateway-platform.js",
+  "scripts": {
+    "clean": "rimraf ./dist",
+    "build": "rimraf ./dist && tsc",
+    "prepublishOnly": "npm run build",
+    "postpublish": "npm run clean",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tijl van Vliet <opensource@tijlvanvliet.nl",
+  "engines": {
+    "homebridge": ">=1.0.0"
+  },
+  "keywords": [
+    "homebridge-plugin"
+  ],
+  "license": "ISC",
+  "files": [
+    "LICENSE",
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com:tijlvanvliet/homebridge-beolink-gateway.git"
+  },
+  "bugs": {
+    "url": "https://github.com:tijlvanvliet/homebridge-beolink-gateway/issues"
+  },
+  "devDependencies": {
+    "@types/node": "10.17.19",
+    "typescript": "^3.8.3",
+    "rimraf": "^3.0.2",
+    "homebridge": "^1.0.4"
+  },
+  "dependencies": {
+    "@types/async": "^3.2.5",
+    "async": "^3.2.0",
+    "axios": "^0.21.1",
+    "request": "^2.88.2"
+  }
+}
