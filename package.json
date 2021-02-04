@@ -15,7 +15,8 @@
     "homebridge": ">=1.0.0"
   },
   "keywords": [
-    "homebridge-plugin"
+    "homebridge-plugin",
+    "homebridge-beolink-gateway"
   ],
   "license": "ISC",
   "files": [
