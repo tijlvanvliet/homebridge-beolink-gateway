@@ -39,7 +39,6 @@
   "dependencies": {
     "@types/async": "^3.2.5",
     "async": "^3.2.0",
-    "axios": "^0.21.1",
-    "request": "^2.88.2"
+    "axios": "^0.21.1"
   }
 }

@@ -43,7 +43,6 @@ class BeolinkGatewayPlatform implements StaticPlatformPlugin {
         headers: JSON.parse(gateway.authHeader)
       }).then((response) => {
         if(response.status !== 200) { return; }
-        log.info(response.data);
         var results = response.data;
 
         async.reduce(results.zones, {}, function(memo: any, item: any, callback) {
