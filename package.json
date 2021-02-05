@@ -1,6 +1,6 @@
 {
   "name": "homebridge-beolink-gateway",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Homebridge plugin for Bang and Olufsen Beolink Gateway",
   "main": "dist/beolinkGateway-platform.js",
   "scripts": {

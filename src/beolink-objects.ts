@@ -1,5 +1,4 @@
 export interface GatewayConfig {
-    id: string;
     url: string;
     prefix: string;
     username: string;
